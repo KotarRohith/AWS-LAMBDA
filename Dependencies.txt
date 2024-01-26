@@ -1,0 +1,9 @@
+sudo amazon-linux-extras install python3.8
+
+curl -O https://bootstrap.pypa.io/get-pip.py
+
+python3.8 get-pip.py --user
+
+sudo python3.8 -m pip install psycopg2-binary -t python/
+
+zip -r dependancies.zip python
