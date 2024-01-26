@@ -19,15 +19,10 @@ Before deploying and running the Lambda function, make sure you have the followi
 
 Ensure the following configurations are set:
 
-### AWS Credentials
+### AWS and Database Credentials
 
-- AWS access key and secret key are stored in AWS Secrets Manager.
-- Secrets Manager ARN for AWS credentials: `arn:aws:secretsmanager:us-east-1:637423517599:secret:aws_secret-OlDeax`
+- AWS access key and secret key and PostgreSQL database credentials are stored in AWS Secrets Manager.
 
-### Database Credentials
-
-- PostgreSQL database credentials are stored in AWS Secrets Manager.
-- Secrets Manager ARN for database credentials: `arn:aws:secretsmanager:us-east-1:637423517599:secret:postgres_secret-uP50lV`
 
 ### S3 Bucket
 
