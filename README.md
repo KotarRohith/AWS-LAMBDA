@@ -79,6 +79,8 @@ The Lambda function executes the following steps:
 ## Troubleshooting
 
 If the Lambda function encounters issues, check the CloudWatch Logs for detailed error messages.
+
+If you get an error that says module not found psycopgp2 try running the above commands on AWS Cloud9 and download the file to local then create a layer with this file and attach that layer to this lambda function.
 ```
 
 
