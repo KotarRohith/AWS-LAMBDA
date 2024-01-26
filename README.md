@@ -86,5 +86,4 @@ The Lambda function executes the following steps:
 If the Lambda function encounters issues, check the CloudWatch Logs for detailed error messages.
 ```
 
-## Output
 
