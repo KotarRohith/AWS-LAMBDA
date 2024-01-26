@@ -1,5 +1,5 @@
 
-```markdown
+
 **Lambda Function: AirBnb Data Loader**
 
 **Overview**
@@ -42,7 +42,7 @@ Ensure the following configurations are set:
 ## Table Schema
 
 The target PostgreSQL table has the following schema:
-
+```markdown
 ```sql
 CREATE TABLE IF NOT EXISTS warehouse_table2 (
     id INT PRIMARY KEY,
